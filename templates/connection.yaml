@@ -8,15 +8,15 @@ Parameters:
   ConnectionName:
     Type: "String"
     Description: "The name of the CodeStar Connection."
-    Default: "cfn-git-sync-boilerplate"
+    Default: "cfn-gt-sync-demo"
   OwnerId:
     Type: "String"
     Description: "The GitHub Owner ID."
-    Default: "ngamradt"
+    Default: "kmudassir-ali"
   RepositoryName:
     Type: "String"
     Description: "The name of the GitHub repository."
-    Default: "cfn-git-sync-boilerplate"
+    Default: "cfn-gt-sync-demo"
 Resources:
   GitHubConnection:
     Type: "AWS::CodeStarConnections::Connection"
